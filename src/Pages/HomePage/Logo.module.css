@@ -1,0 +1,17 @@
+:root {
+  --lightBorwn: #cd5c5c;
+  --fadedLigntBrown: #fab1a0;
+}
+
+.mainContainer {
+  background: linear-gradient(var(--lightBorwn), var(--fadedLigntBrown));
+  height: 44px;
+  border: 1px solid var(--lightBorwn);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", "Times New Roman", Times, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
